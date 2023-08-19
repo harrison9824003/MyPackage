@@ -1,0 +1,10 @@
+{
+    "name": "virtualorz/hello",
+    "authors": [
+        {
+            "name": "root",
+            "email": "admin@example.com"
+        }
+    ],
+    "require": {}
+}
