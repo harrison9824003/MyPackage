@@ -21,7 +21,8 @@ class HelloServiceProvider extends ServiceProvider
     {
         //
         $this->app->make(HelloController::class);
-        include(__DIR__ . '/routes/web.php');
+        // include(__DIR__ . '/routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/views', 'Hello');
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
     }
 }
