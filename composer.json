@@ -13,8 +13,10 @@
         }
     },
     "extra": {
-        "providers": [
-            "Virtualorz\\Hello\\HelloServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "Virtualorz\\Hello\\HelloServiceProvider"
+            ]
+        }        
     }
 }
