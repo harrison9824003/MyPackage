@@ -11,5 +11,10 @@
         "psr-4": {
             "Virtualorz\\Hello\\": "src"
         }
+    },
+    "extra": {
+        "providers": [
+            "Virtualorz\\Hello\\HelloServiceProvider"
+        ]
     }
 }
